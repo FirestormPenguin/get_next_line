@@ -6,7 +6,7 @@
 /*   By: egiubell <egiubell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/15 17:23:30 by egiubell          #+#    #+#             */
-/*   Updated: 2023/02/20 18:05:00 by egiubell         ###   ########.fr       */
+/*   Updated: 2023/02/20 18:20:33 by egiubell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ char	*get_next_line(int fd)
 	return (line);
 }
 
-#include <stdio.h>
+/*#include <stdio.h>
 #include <fcntl.h>
 
 int main()
@@ -73,4 +73,4 @@ int main()
 	//printf("%s", c);
 	close(fd);
 	return (0);
-}
+}*/
