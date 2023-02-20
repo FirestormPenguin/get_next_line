@@ -6,7 +6,7 @@
 /*   By: egiubell <egiubell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/15 17:23:30 by egiubell          #+#    #+#             */
-/*   Updated: 2023/02/20 17:58:56 by egiubell         ###   ########.fr       */
+/*   Updated: 2023/02/20 18:05:00 by egiubell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,8 @@ char	*ft_read_line(int fd, char *str)
 	return (str);
 }
 
+#include <stdio.h>
+
 char	*get_next_line(int fd)
 {
 	static char	*str;
@@ -51,7 +53,7 @@ char	*get_next_line(int fd)
 	return (line);
 }
 
-/*#include <stdio.h>
+#include <stdio.h>
 #include <fcntl.h>
 
 int main()
@@ -66,9 +68,9 @@ int main()
 	char *a = get_next_line(fd);
 	char *b = get_next_line(fd);
 	char *c = get_next_line(fd);
-	printf("%s", a);
-	printf("%s", b);
-	printf("%s", c);
+	//printf("%s", a);
+	//printf("%s", b);
+	//printf("%s", c);
 	close(fd);
 	return (0);
-}*/
+}
