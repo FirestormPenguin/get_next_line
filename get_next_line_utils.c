@@ -6,7 +6,7 @@
 /*   By: egiubell <egiubell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/15 17:23:35 by egiubell          #+#    #+#             */
-/*   Updated: 2023/02/20 17:48:42 by egiubell         ###   ########.fr       */
+/*   Updated: 2023/02/20 18:00:44 by egiubell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ char	*ft_strchr(const char *s, int c)
 	while (s[i] != '\0')
 	{
 		if (s[i] == (char)c)
-			return ((char *)(s + i));	
+			return ((char *)(s + i));
 		i++;
 	}
 	return (0);

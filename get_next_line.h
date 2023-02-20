@@ -6,7 +6,7 @@
 /*   By: egiubell <egiubell@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/15 17:23:33 by egiubell          #+#    #+#             */
-/*   Updated: 2023/02/20 17:49:24 by egiubell         ###   ########.fr       */
+/*   Updated: 2023/02/20 17:59:16 by egiubell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ char	*ft_strchr(const char *s, int c);
 char	*ft_strjoin(char *s1, char *s2);
 char	*ft_get_line(char *s);
 char	*ft_new_str(char *s);
-char	*ft_read_line(int fd,char *str);
+char	*ft_read_line(int fd, char *str);
 char	*get_next_line(int fd);
 
 #endif
